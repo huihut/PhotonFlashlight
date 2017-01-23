@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">光子手电筒</string>
+    <string name="about_title">自我介绍</string>
+    <string name="about_text">你好 |ω・），我是一只具有手电、警灯、调色板、摩尔斯电码等功能的集可爱与智慧于一身的Super手电筒，光子！(๑•̀ㅂ•́)و✧</string>
+    <string name="about_powerby">Menghui</string>
+    <string name="about_github">Github: huihut</string>
+    <string name="about_email">E-mail: huihut@outlook.com</string>
+    <string name="eoe">仅供学习，部分代码来自eoe</string>
+</resources>

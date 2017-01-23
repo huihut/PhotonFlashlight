@@ -1,0 +1,22 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/framelayout_bulb"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:visibility="gone">
+
+    <ImageView
+        android:id="@+id/imageview_bulb"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/bulb_cross_fade"
+        android:onClick="onClick_BulbCrossFade"/>
+
+    <com.menger.superflashlight.widget.HideTextView
+        android:id="@+id/textview_hide_bulb"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:text="(ಡωಡ)~~点我变亮噢！"
+        android:textSize="20sp"/>
+
+</FrameLayout>

@@ -1,0 +1,17 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/framelayout_police_light"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F00"
+    android:visibility="gone">
+
+    <com.menger.superflashlight.widget.HideTextView
+        android:id="@+id/textview_hide_police_light"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:text="ψ(｀∇´)ψ~嘿哟~我是警察，亮警灯！"
+        android:textSize="20sp"
+        android:textColor="#FFF"/>
+
+</FrameLayout>

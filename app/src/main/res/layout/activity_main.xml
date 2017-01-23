@@ -1,0 +1,37 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg" >
+
+    <include layout="@layout/ui_flashlight"/>
+    <include layout="@layout/ui_warning_light"/>
+    <include layout="@layout/ui_morse"/>
+    <include layout="@layout/ui_main"/>
+    <include layout="@layout/ui_bulb"/>
+    <include layout="@layout/ui_colorlight"/>
+    <include layout="@layout/ui_policelight"/>
+    <include  layout="@layout/about"/>
+
+    <ImageView
+        android:id="@+id/imageview_controller"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:layout_gravity="top|right"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="10dp"
+        android:onClick="onClick_Controller"
+        android:src="@drawable/controller" />
+
+    <!--<ImageView-->
+
+        <!--android:layout_width="48dp"-->
+        <!--android:layout_height="48dp"-->
+        <!--android:layout_gravity="top|right"-->
+        <!--android:layout_marginRight="10dp"-->
+        <!--android:layout_marginTop="10dp"-->
+        <!--android:src="@drawable/controller"-->
+        <!--android:onClick="onClick_Controller" />-->
+
+</FrameLayout>
+
+    <!--android:id="@+id/imageview_controller"-->
